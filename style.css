@@ -24,10 +24,20 @@ nav {
     width: 100%;
 
 }
+nav ul {
+    padding: 5px;
+}
 
 nav ul a li {
     padding: 15px;
     font-weight: bold;
+    margin: 0 5px;
+}
+
+nav ul a li:hover {
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 3px 1px;
 }
 
 
@@ -42,6 +52,9 @@ section .card .heading button {
     border-radius: 20px;
     margin-top: 20px;
     width: 100%;
+}
+section .card .heading button:hover {
+    box-shadow: 0 0 5px 3px #1e4949;
 }
 
 
