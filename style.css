@@ -55,12 +55,20 @@ section .card .heading button {
 section .card .heading button:hover {
     box-shadow: 0 0 5px 3px #1e4949;
 }
+
 .h-title {
     box-shadow: 0 0 5px 3px #1e4949;
     clip-path: polygon(0 0, 95% 5%, 100% 100%, 5% 95%);
 }
 .h-content {
     text-underline-offset: 8px;
+}
+
+.news {
+    height: 500px;
+}
+.news button:hover {
+    box-shadow: 0 0 5px 3px #1e4949;
 }
 
 @media screen and (max-width: 768px) {
